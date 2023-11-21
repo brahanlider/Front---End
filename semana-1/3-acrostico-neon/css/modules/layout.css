@@ -80,6 +80,7 @@
 }
 
 .section__verse::first-letter {
+  font-weight: 800;
   font-size: 1.5rem;
 }
 
