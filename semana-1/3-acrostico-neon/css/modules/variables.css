@@ -1,0 +1,19 @@
+:root {
+  scroll-behavior: smooth;
+  --primary-theme-color: rgba(14, 11, 56, 1);
+  --secondary-theme-color: rgba(239, 37, 37, 1);
+  --primary-text-color: #fff;
+  --primary-highlight-color: #61dafb;
+  --primary-font-family: serif;
+  --letter-color-1: #00bef8;
+  --letter-color-2: #ff0697;
+  --letter-color-3: #ff4d00;
+  --letter-color-4: #ffe600;
+  --letter-color-5: #bb00ff;
+  --letter-color-6: #f5926b;
+  --letter-color-7: rgb(85, 245, 10);
+  --max-width-container: 1024px;
+  --padding-section: 1.5rem;
+  --padding-container: 1rem;
+  --primary-border-radius: 0.5rem;
+}
