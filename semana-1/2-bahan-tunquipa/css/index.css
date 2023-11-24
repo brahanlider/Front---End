@@ -4,6 +4,10 @@
 @import './modules/header.css';
 @import './modules/nav.css';
 @import './modules/list.css';
+@import './modules/cards.css';
+@import './modules/buttons.css';
+@import './modules/hero.css';
+@import './modules/animation.css';
 
 
 
@@ -14,3 +18,6 @@
   margin: 0;
 }
 
+.main {
+  overflow: hidden;
+}

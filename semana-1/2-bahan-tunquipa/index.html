@@ -20,7 +20,7 @@
     <nav class="nav" id="header-nav">
       <div class="container f-elements f-elements--header p-relative">
         <a href="#hero">
-          <img src="./assets/img/Brahan-Tunquipa-_1_-_1_.webp" alt="Brahan Tunquipa" width="40" height="40"
+          <img src="./assets/img/Brahan-Tunquipa-_1_-_1_.webp" alt="Brahan Tunquipa" width="48" height="48"
             class="nav__logo" />
         </a>
         <a href="#header-nav" class="nav__icon nav__icon--menu"><i class="bi bi-list"></i></a>
@@ -28,6 +28,9 @@
         <ul class="list list--header f-elements f-elements--center f-elements--responsive gap-md">
           <li>
             <a href="#hero" class="list__link">Perfil</a>
+          </li>
+          <li>
+            <a href="#projects" class="list__link">Proyectos</a>
           </li>
           <li>
             <a href="#experiences" class="list__link">Experiencia</a>
@@ -40,39 +43,105 @@
     </nav>
   </header>
 
-  <main>
-    <article id="hero" class="section section--hero f-elements f-elements--center">
-      <div class="container f-elements f-elements--center f-elements--responsive">
-        <div class="flex-1">
-          <header>
-            <h1>Brahan Tunquipa</h1>
+  <main class="main">
+    <article id="hero" class="section hero f-elements f-elements--center">
+      <div class="container g-elements g-elements--responsive g-elements--center gap-lg">
+        <div class="card">
+          <header class="card__header">
+            <h1 class="card__title">Brahan Tunquipa</h1>
           </header>
-          <section>
-            <h2>Apasionado por el Código: Explorando el Mundo del Desarrollo Web.</h2>
-            <p>
+          <section class="card__body">
+            <h2 class="card__subtitle">Apasionado por el Código: Explorando el Mundo del Desarrollo Web.</h2>
+            <p class="card__text d-none md:d-block">
               Desarrollador Web Frontend con la biblioteca React. Docente de especialización en Desarrollo Web
               Frontend. Apasionado del autoaprendizaje y del código limpio.
             </p>
           </section>
-          <footer>
-            <div>
-              <a href="http://" target="_blank" rel="noopener noreferrer">CV</a>
-              <a href="https://github.com/brahanlider" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <footer class="card__footer">
+            <div class="f-elements f-elements--center gap-sm">
+              <a href="http://" target="_blank" rel="noopener noreferrer" class="button button--primary">CV</a>
+              <a href="https://github.com/brahanlider" target="_blank" rel="noopener noreferrer"
+                class="button button--outline-primary">GitHub</a>
             </div>
           </footer>
         </div>
-        <div class="flex-1 f-elements f-elements--center">
-          <img src="./assets/img/fotoBrahan-_1_ (1).webp" alt="Brahan-Tunquipa-Mamani" width="256" height="256">
-          <figure>
-            <img src="./assets/img/html-svgrepo-com.svg" alt="HTML" width="64" height="64">
-            <img src="./assets/img/css-3-svgrepo-com.svg" alt="CSS" width="64" height="64">
-            <img src="./assets/img/js-official-svgrepo-com.svg" alt="JS" width="64" height="64">
-            <img src="./assets/img/react-svgrepo-com.svg" alt="REACT" width="64" height="64">
-            <img src="./assets/img/java-4-logo-svgrepo-com.svg" alt="JAVA" width="64" height="64">
+        <div class="hero__img">
+          <img src="./assets/img/fotoBrahan-_1_ (1).webp" alt="Brahan-Tunquipa-Mamani" width="256" height="256"
+            class="hero__primary-img">
+          <figure class="hero__decorators">
+            <img src="./assets/img/html-svgrepo-com.svg" alt="HTML" width="64" height="64" class="hero__decorator">
+            <img src="./assets/img/css-3-svgrepo-com.svg" alt="CSS" width="64" height="64" class="hero__decorator">
+            <img src="./assets/img/js-official-svgrepo-com.svg" alt="JS" width="64" height="64" class="hero__decorator">
+            <img src="./assets/img/react-svgrepo-com.svg" alt="REACT" width="64" height="64" class="hero__decorator">
+            <!-- <img src="./assets/img/java-4-logo-svgrepo-com.svg" alt="JAVA" width="64" height="64"
+              class="section__hero-decorator"> -->
           </figure>
         </div>
       </div>
     </article>
+    <section class="section" id="projects">
+      <div class="container f-elements f-direction-column gap-md">
+        <h2 class="section__title">💻 Proyectos 💻</h2>
+        <div class="g-elements g-elements--gallery j-items-center gap-sm">
+          <div class="card f-elements f-direction-column">
+            <img src="https://i.postimg.cc/mkx0Qrp9/tarjeta-de-perfil-BLTM-imagen.png" alt="Cineverse"
+              class="card__img" />
+            <div class="card__body f-elements f-direction-column gap-xs">
+              <h3 class="card__title">Cineverse</h3>
+              <p class="card__text">
+                Las mejores películas, estrenos, promociones y dulces en el mejor Cine. Contamos con las 4B Bueno,
+                bonito, barato y bastante. Compra tus entradas de forma digital, rápido y sin colas.
+              </p>
+            </div>
+            <div class="card__footer">
+              <div class="f-elements f-elements--center gap-sm">
+                <a href="https://brahanlider.github.io/tarjeta-de-perfil-BLTM/" target="_blank"
+                  rel="noopener noreferrer" class="button button--primary">Demo</a>
+                <a href="https://github.com/brahanlider/tarjeta-de-perfil-BLTM" target="_blank"
+                  rel="noopener noreferrer" class="button button--secondary">Código</a>
+              </div>
+            </div>
+          </div>
+          <div class="card f-elements f-direction-column">
+            <img src="https://i.postimg.cc/mkx0Qrp9/tarjeta-de-perfil-BLTM-imagen.png" alt="Cineverse"
+              class="card__img" />
+            <div class="card__body f-elements f-direction-column gap-xs">
+              <h3 class="card__title">Cineverse</h3>
+              <p class="card__text">
+                Las mejores películas, estrenos, promociones y dulces en el mejor Cine. Contamos con las 4B Bueno,
+                bonito, barato y bastante. Compra tus entradas de forma digital, rápido y sin colas.
+              </p>
+            </div>
+            <div class="card__footer">
+              <div class="f-elements f-elements--center gap-sm">
+                <a href="https://brahanlider.github.io/tarjeta-de-perfil-BLTM/" target="_blank"
+                  rel="noopener noreferrer" class="button button--primary">Demo</a>
+                <a href="https://github.com/brahanlider/tarjeta-de-perfil-BLTM" target="_blank"
+                  rel="noopener noreferrer" class="button button--secondary">Código</a>
+              </div>
+            </div>
+          </div>
+          <div class="card f-elements f-direction-column">
+            <img src="https://i.postimg.cc/mkx0Qrp9/tarjeta-de-perfil-BLTM-imagen.png" alt="Cineverse"
+              class="card__img" />
+            <div class="card__body f-elements f-direction-column gap-xs">
+              <h3 class="card__title">Cineverse</h3>
+              <p class="card__text">
+                Las mejores películata.
+              </p>
+            </div>
+            <div class="card__footer">
+              <div class="f-elements f-elements--center gap-sm">
+                <a href="https://brahanlider.github.io/tarjeta-de-perfil-BLTM/" target="_blank"
+                  rel="noopener noreferrer" class="button button--primary">Demo</a>
+                <a href="https://github.com/brahanlider/tarjeta-de-perfil-BLTM" target="_blank"
+                  rel="noopener noreferrer" class="button button--secondary">Código</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="experiences">
       <div>
         <h2>👨‍💻 Experiencias 👨‍💻</h2>
@@ -191,14 +260,8 @@
 </html>
 <!--  Para poder abreviar y multiplicar   .....  ul>li*3>a -->
 <!-- 
-  D:\1 T. I\codigo-tecsup\frontend\Video Clases Front -end\Semana 1 - FrontEnd (31.10)-20221104 2256-1.mp4
-
-  s
-  s
-  s
-  s
-  s
-  s
-  s
-  s
+8 s4 
+1:42 
+quitar todo flex para 
+empezar con grid
  -->
